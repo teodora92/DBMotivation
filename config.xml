@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.damiangawenda.dbmotivation"
+        version = "0.2.0">
+    <name>DB Motivation</name>
+    <description>
+        DB Motivation
+    </description>
+    <author>
+        Teodora Petrisor, Damian Gawenda
+    </author>
+	
+	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="orientation" value="portrait" />
+	<!-- geolocation permission -->
+	
+    <preference name="permissions" value="none" />
+	
+	
+	<!-- maybe works for mobile? -->
+	<access origin="*"/>
+	
+	<preference name="show-splash-screen-spinner" value="false" />
+	<icon src="res/img/wiehlLogo.jpg" />
+
+	<!--icon src="res/img/icons/apple/apple-touch-icon-ipad.png" /-->
+	
+	<!--Splashscreen support from PGB-->
+	
+	<!-- Android -->
+	<gap:splash src="res/img/splash/android/ldpi/splash.jpg" gap:platform="android" gap:density="ldpi"  width="320" height="426" />
+	<gap:splash src="res/img/splash/android/mdpi/splash.jpg" gap:platform="android" gap:density="mdpi"  width="320" height="470" />
+	<gap:splash src="res/img/splash/android/hdpi/splash.jpg" gap:platform="android" gap:density="hdpi"  width="480" height="640" />
+	<gap:splash src="res/img/splash/android/xhdpi/splash.jpg" gap:platform="android" gap:density="xhdpi" width="720" height="960" />
+	
+
+	<!--Icon support from PGB-->
+	<icon src="res/img/icons/android/ldpi/icLauncher.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/img/icons/android/mdpi/icLauncher.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/img/icons/android/hdpi/icLauncher.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/img/icons/android/xhdpi/icLauncher.png" gap:platform="android" gap:density="xhdpi" />
+	
+
+</widget>
