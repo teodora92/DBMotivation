@@ -98,7 +98,7 @@ function displayData(data) {
 	});
 	
 	$('.listItem').click(function() {
-		//populateDetail();
+		scroll.refresh();
 	});
 }
 
