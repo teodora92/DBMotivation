@@ -4,6 +4,26 @@
 	<meta http-equiv="Content-Type" content="text/html charset=iso-8859-1" >
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
 	
+	<!-- Support for iOS webapp -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<link rel="apple-touch-icon" href="res/img/icons/apple/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="res/img/icons/apple/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="res/img/icons/apple/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="res/img/icons/apple/touch-icon-ipad-retina.png" />
+		
+	<!-- iPhone SPLASHSCREEN-->
+    <link href="res/img/splash/apple/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) SPLASHSCREEN-->
+    <link href="res/img/splash/apple/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPad (portrait) SPLASHSCREEN-->
+    <link href="res/img/splash/apple/apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+    <!-- iPad (Retina, portrait) SPLASHSCREEN-->
+	<link href="res/img/splash/apple/apple-touch-startup-image-1536x2008.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+	<!-- iPhone 5 -->
+	<link href="res/img/splash/apple/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+	
 	<title>DB Motivation</title>
 	
 	<script src="res/js/jquery191min.js"></script>
@@ -26,26 +46,12 @@
 <body>
 	<div id="header"><img id="appIcon" src="res/img/appIcon.png">DB Motivation</div>
 	
-	<div class="pageLeftInv" id="pageLeft">
-		<div id="menuContent">
-			<ul id="menuList">
-				<li>Item 1</li>
-				<li>Item 2</li>
-				<li>Item 3</li>
-				<li>Item 4</li>
-				<li>Item 5</li>
-				<li>Item 6</li>
-			</ul>
-		</div>
-	</div>
-	
-	
 	<div id="pageCenter" class="pageCenterVis">
 		<div id="centerContent">
 			<div id="thewrapper">
 				<div id="pullDown">
 					<span class="pullDownIcon"></span>
-					<span class="pullDownLabel">Herunterziehen...</span>
+					<span class="pullDownLabel">Pull down...</span>
 				</div>
 				<ul id="thelist">
 			</div>
@@ -53,8 +59,12 @@
 		</div>
 	</div>
 	
-	
-	<div id="pageRight" class="pageRightInv"></div>
+	<div id="pageRight" class="pageRightInv">
+		<div id="rightContent">
+			<div id="rightWrapper">
+			</div>
+		</div>
+	</div>
 	<script type="text/javascript" src="res/js/main.js"></script>
 	
 	
